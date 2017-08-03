@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 01@lab9 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP7D32.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/01@lab9.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\vc6\lab\01@lab9.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP7D32.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP7D33.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/01@lab9.pdb" /debug /machine:I386 /out:"Debug/01@lab9.exe" /pdbtype:sept 
+".\Debug\01@lab9.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP7D33.tmp"
+<h3>Output Window</h3>
+Compiling...
+01@lab9.c
+D:\vc6\lab\01@lab9.c(11) : warning C4047: '=' : 'char ** ' differs in levels of indirection from 'char *'
+D:\vc6\lab\01@lab9.c(13) : warning C4047: '=' : 'char *' differs in levels of indirection from 'char ** '
+D:\vc6\lab\01@lab9.c(19) : warning C4101: 'res' : unreferenced local variable
+D:\vc6\lab\01@lab9.c(18) : warning C4101: 'j' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+01@lab9.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
